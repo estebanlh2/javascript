@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let userName = prompt('Quien eres?', '');
+
+if (userName == "miamochito") {
+
+   let pass = prompt("Te amo mucho?", "");
+ 
+   if (pass === "mucho te amo") {
+  alert("Si mucho te amo");
+    } else if (pass === "" || pass === null) {
+  alert( "No lo sabes" );
+    } else {
+    alert( "No eres mi amochito") 
+     }
+
+} else if (userName === '' || userName === null) {
+    alert("Ni eso sabes"); 
+} else {
+     alert( "incorrecto");
+}  
+
+
+  
+
+
+
+
+
+</script>

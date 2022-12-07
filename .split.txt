@@ -1,0 +1,7 @@
+const frase= 'The quick brown fox jumps over the lazy dog.';
+
+const palabras= frase.split(' ');
+console.log(palabras[3]);
+
+
+en palabras[3] se escoge la palabra de 0,1,2,3.....

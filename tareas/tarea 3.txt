@@ -1,0 +1,12 @@
+const datos = [42, 6, 18, 69, 54, 25]
+
+const Mishapregunta = (datos) => {
+  const min = Math.min(...datos);
+  const max = Math.max(...datos);
+  return[max, min]
+}
+
+console.log(Mishapregunta(datos));
+
+
+numero mayor y menor

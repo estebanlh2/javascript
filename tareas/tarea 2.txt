@@ -1,0 +1,8 @@
+const Mishaoperacion = function(numeros, letras) { 
+  let suma = +numeros + +letras;
+  return String(suma);
+}
+
+console.log(Mishaoperacion("5", "4"));
+
+tarea realizar suma de strings y el resultado sea en string

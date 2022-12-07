@@ -1,0 +1,29 @@
+<script>
+"use strict";
+let userName = prompt("Quien eres?", "");
+
+
+if (userName == "miamochito") {
+  
+    let pass = prompt("mucho te amo?", "") 
+  
+    if (pass === "mucho te amo") {
+  alert("bienvenido");
+    } else if (pass == "" || pass == null) {
+  alert("no prro");
+    } else {
+  alert("nel");
+    }
+
+} else if (userName === "" || userName === null) {
+    alert("perro equivocado");
+} else {
+    alert("nel prro");
+}
+</script>
+
+
+
+
+
+</script>

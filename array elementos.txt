@@ -1,0 +1,65 @@
+Metodo para remplazar elementos en la matriz
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] = 'avocados'
+console.log(groceryList)
+// [ 'bread', 'avocados', 'milk' ]
+
+.push
+Agrega al final de la matriz elementos
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push('mas', 'menos');
+console.log(chores)
+// [ 'wash dishes', 'do laundry', 'take out trash', 'mas', 'menos' ] //
+
+.length
+devuelve la cantidad de elementos en la matriz
+const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon', 'algo mas'];
+console.log(objectives.length)
+//4
+
+.pop
+elimina el último elemento de una matriz
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+chores.pop();
+console.log(chores)
+//[ 'wash dishes', 'do laundry', 'take out trash', 'cook dinner' ]
+
+.shift
+elimina el primer elemento de la matriz
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift();
+console.log(groceryList)
+//[ 'bananas', 'coffee beans', 'brown rice', 'pasta','coconut oil', 'plantains' ]
+
+.unshift()
+agrega un elemento en el primero puesto de a la matriz
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.unshift('popcorn')
+console.log(groceryList)
+//[ 'popcorn',  'bananas',  'coffee beans','brown rice',  'pasta','coconut oil',  'plantains' ]
+
+.slice()
+devuelve una copia de todo o parte de una matriz sin modificar el original.
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift();
+groceryList.unshift('popcorn');
+console.log(groceryList.slice(1,4))
+// [ 'bananas', 'coffee beans', 'brown rice' ]
+
+.indexOf()
+devuelve la posicion en la que se puede encontrar un elemento y devuelve -1 si no se encuentra el elemento.
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+const pastaIndex = groceryList.indexOf('pasta')
+console.log(pastaIndex);
+//4
+
+
+Funciones y matrices
+
+const flowers = ['peony', 'daffodil', 'marigold'];
+function addFlower(arr) {
+  arr.push('lily');
+}
+addFlower(flowers);
+console.log(flowers);
+// [ 'peony', 'daffodil', 'marigold', 'lily' ]

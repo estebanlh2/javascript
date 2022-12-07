@@ -1,0 +1,46 @@
+var userName = 'Jimmy';
+//primero poner el nombre
+userName ? console.log(`Hello ${userName}!`)
+: console.log('Hello!');
+//ubicar el texto utilizando el nombre del usuario
+let userQuestion = 'Will I win this match?';
+//segundo poner la pregunta que quiere hacer el usuario
+console.log(`${userName} has asked - ${userQuestion}`);
+//ubicar que pregunta el usuario
+let randomNumber = Math.floor (Math.random() * 8);
+console.log(randomNumber);
+//asignar un numero random del 0-8
+let eightBall = '';
+//asignar el uso de la bola 8
+switch (randomNumber) {
+  case 0:
+  eightBall = 'Ask another time';
+  break;
+  case 1:
+  eightBall = 'Try again';
+  break;
+  case 2:
+  eightBall = 'Let me think again';
+  break;
+  case 3:
+  eightBall = 'Yes';
+  break;
+  case 4:
+  eightBall = 'No';
+  break;
+  case 5:
+  eightBall = 'Maybe';
+  break;
+  case 6:
+  eightBall = 'Of course yes';
+  break;
+  case 7:
+  eightBall = 'Of course no';
+  break;
+  case 8:
+  eightBall = 'I dont know';
+  break;
+}
+// crear las posibles respuestas
+console.log (`The Magic ball 8 says, ${eightBall}.`)
+//escribit el texto
